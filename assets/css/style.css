@@ -1,0 +1,59 @@
+.clock {
+    width: 500px;
+    height: 500px;
+    border-radius: 252px;
+    margin: 0 auto;
+    box-shadow: inset 0px 1px 20px 20px #0000002e;
+}
+
+.seconds-arrow {
+    display: none;
+    position: relative;
+    left: 49%;
+    top: 24px;
+    border-radius: 5px;
+}
+
+
+.minutes-arrow {
+    position: relative;
+    left: 49%;
+    bottom: 446px;
+    display: none;
+    border-radius: 5px;
+}
+
+.hourse-arrow {
+    position: relative;
+    left: 49%;
+    bottom: 891px;
+    display: none;
+    border-radius: 5px;
+}
+
+.center-dot {
+    display: block;
+    position: relative;
+    bottom: 1105px;
+    left: 236px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #F00;
+}
+
+.clock-maket {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 506px;
+    display: block;   
+}
+
+.clock-numbers {
+    margin: 0 auto;
+    width: 250px;
+    display: block;
+    bottom: 886px;
+    position: relative;
+}
